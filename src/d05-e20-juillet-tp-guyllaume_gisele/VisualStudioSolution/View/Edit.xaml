@@ -1,0 +1,65 @@
+﻿<Page x:Class="View.Edit"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:View"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="300" Width="600" Height="700"
+      Title="Edit">
+
+    <Grid Background="#282e2a" Margin="3,3,3,3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="50"/>
+        </Grid.ColumnDefinitions>
+
+        <DockPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3">
+            <Image DockPanel.Dock="Left" Source="ssn2.png" Width="50" Height="50"/>
+            <TextBox x:Name="EditUserSelectTextbox" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" FontSize="24" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="3,3,3,3" FontFamily="Source Sans Pro" Text="USER NAME SELECT"/>
+        </DockPanel>
+
+        <TextBox x:Name="EditTextboxNAS" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Margin="3,3,3,3" FontSize="24" FontFamily="Source Sans Pro" HorizontalContentAlignment="Left" VerticalContentAlignment="Center">NAS
+        </TextBox>
+        <TextBox x:Name="EditTextboxFirstName" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Margin="3,3,3,3" FontSize="24" FontFamily="Source Sans Pro" HorizontalContentAlignment="Left" VerticalContentAlignment="Center">First Name
+        </TextBox>
+        <TextBox x:Name="EditTextboxLastName" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Margin="3,3,3,3" FontSize="24" FontFamily="Source Sans Pro" HorizontalContentAlignment="Left" VerticalContentAlignment="Center">Last Name
+        </TextBox>
+        <TextBox x:Name="EditTextboxAdress" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" Margin="3,3,3,3" FontSize="24" FontFamily="Source Sans Pro" HorizontalContentAlignment="Left" VerticalContentAlignment="Center">Adress
+        </TextBox>
+        <TextBox x:Name="EditTextboxPostalCode" Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2" Margin="3,3,3,3" FontSize="24" FontFamily="Source Sans Pro" HorizontalContentAlignment="Left" VerticalContentAlignment="Center">Postal Code
+        </TextBox>
+        <TextBox x:Name="EditTextboxDoB" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="2" Margin="3,3,3,3" FontSize="24" FontFamily="Source Sans Pro" HorizontalContentAlignment="Left" VerticalContentAlignment="Center">DoB
+        </TextBox>
+        <TextBox x:Name="EditTextboxPhone" Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="2" Margin="3,3,3,3" FontSize="24" FontFamily="Source Sans Pro" HorizontalContentAlignment="Left" VerticalContentAlignment="Center">Phone
+        </TextBox>
+        <TextBox x:Name="EditTextboxEmail" Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="2" Margin="3,3,3,3" FontSize="24" FontFamily="Source Sans Pro" HorizontalContentAlignment="Left" VerticalContentAlignment="Center">Email
+        </TextBox>
+
+        <TextBox x:Name="EditTextboxDisplay" VerticalScrollBarVisibility="Visible" Grid.Row="2" Grid.Column="1" Grid.RowSpan="7" Margin="3,3,3,3" FontSize="12" FontFamily="Source Sans Pro" HorizontalContentAlignment="Left" VerticalContentAlignment="Top">CONTACT INFO
+        </TextBox>
+
+        <Button x:Name="EditViewUpdate" Content="VIEW UPDATE" Grid.Row="9" Grid.Column="1" Margin="2.6,2.6,3,0" FontSize="16" FontFamily="Source Sans Pro" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="44" VerticalAlignment="Top" Click="EditViewUpdate_Click"/>
+        <Button x:Name="EditCommit" Content="COMMIT" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="3" Margin="3,3,3,3" FontSize="16" FontFamily="Source Sans Pro" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="EditCommit_Click"/>
+    </Grid>
+</Page>

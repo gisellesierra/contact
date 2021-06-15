@@ -1,0 +1,12 @@
+C:\Exercices\d05-e20-juillet-guyllaume-demers\d05-e20-juillet-tp-guyllaume_gisele\VisualStudioSolution\Model\bin\Debug\Model.exe.config
+C:\Exercices\d05-e20-juillet-guyllaume-demers\d05-e20-juillet-tp-guyllaume_gisele\VisualStudioSolution\Model\bin\Debug\Model.exe
+C:\Exercices\d05-e20-juillet-guyllaume-demers\d05-e20-juillet-tp-guyllaume_gisele\VisualStudioSolution\Model\bin\Debug\Model.pdb
+C:\Exercices\d05-e20-juillet-guyllaume-demers\d05-e20-juillet-tp-guyllaume_gisele\VisualStudioSolution\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Exercices\d05-e20-juillet-guyllaume-demers\d05-e20-juillet-tp-guyllaume_gisele\VisualStudioSolution\Model\obj\Debug\Model.exe
+C:\Exercices\d05-e20-juillet-guyllaume-demers\d05-e20-juillet-tp-guyllaume_gisele\VisualStudioSolution\Model\obj\Debug\Model.pdb
+C:\Exercices\d05-e20-juillet-giselle-sierra\TPContact3\d05-e20-juillet-tp-guyllaume_gisele\VisualStudioSolution\Model\bin\Debug\Model.exe.config
+C:\Exercices\d05-e20-juillet-giselle-sierra\TPContact3\d05-e20-juillet-tp-guyllaume_gisele\VisualStudioSolution\Model\bin\Debug\Model.exe
+C:\Exercices\d05-e20-juillet-giselle-sierra\TPContact3\d05-e20-juillet-tp-guyllaume_gisele\VisualStudioSolution\Model\bin\Debug\Model.pdb
+C:\Exercices\d05-e20-juillet-giselle-sierra\TPContact3\d05-e20-juillet-tp-guyllaume_gisele\VisualStudioSolution\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Exercices\d05-e20-juillet-giselle-sierra\TPContact3\d05-e20-juillet-tp-guyllaume_gisele\VisualStudioSolution\Model\obj\Debug\Model.exe
+C:\Exercices\d05-e20-juillet-giselle-sierra\TPContact3\d05-e20-juillet-tp-guyllaume_gisele\VisualStudioSolution\Model\obj\Debug\Model.pdb
